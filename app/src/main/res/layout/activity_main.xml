@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/ods1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck"
+        tools:src="@drawable/ods1"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="55dp"
+        android:src="@drawable/ods2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/ods2"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="55dp"
+        android:src="@drawable/ods3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton"
+        tools:src="@drawable/ods3"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="55dp"
+        android:src="@drawable/ods4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+        tools:src="@drawable/ods4"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="55dp"
+        android:src="@drawable/ods5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton3"
+        tools:src="@drawable/ods5"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="55dp"
+        android:src="@drawable/ods6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton4"
+        tools:src="@drawable/ods6"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/texto1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="TextView"
+        app:layout_constraintBaseline_toBottomOf="@drawable/ods1"
+        app:layout_constraintEnd_toStartOf="@+id/texto2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/texto2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="30dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/texto3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toStartOf="@+id/texto4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton3"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/texto4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="30dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton4"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/texto5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toStartOf="@+id/texto6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton5"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/texto6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="30dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton6"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
